@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import ImageGallery from "../ImageGallery/ImageGallery";
 import Modal from "../Modal/Modal";
 import Searchbar from "../SearchBar/SearchBar";
-import {ToastContainer, toast} from 'react-toastify';
+import {ToastContainer} from 'react-toastify';
 import getImages from "components/Servise/Api";
 import Button from "../Button/Button";
 import Loader from "components/Loader/Loader";
